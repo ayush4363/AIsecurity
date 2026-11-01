@@ -1,0 +1,37 @@
+{
+  "module": "url",
+  "model_version": "url-v1.0.0",
+  "algorithm": "Random Forest Classifier (100 Trees)",
+  "features": [
+    "url_length",
+    "is_https",
+    "is_ip",
+    "subdomain_count",
+    "has_at",
+    "has_hyphen",
+    "suspicious_keyword_count"
+  ],
+  "dataset_size": 1000,
+  "train_size": 700,
+  "val_size": 150,
+  "test_size": 150,
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1_score": 1.0,
+  "roc_auc": 1.0,
+  "confusion_matrix": [
+    [
+      75,
+      0
+    ],
+    [
+      0,
+      75
+    ]
+  ],
+  "classes": [
+    "benign",
+    "malicious"
+  ]
+}

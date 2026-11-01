@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    overflow-x: hidden;
+  }
+}
+
+/* Glass panel style matching the reference screenshot */
+.glass-panel {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px 0 rgba(16, 7, 36, 0.45);
+}
+
+.glass-panel-subtle {
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.glass-panel-purple {
+  background: rgba(81, 37, 165, 0.35);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(169, 139, 239, 0.25);
+  box-shadow: 0 10px 30px rgba(24, 10, 56, 0.5);
+}
+
+/* Float animations */
+@keyframes float-slow {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(1deg);
+  }
+}
+
+@keyframes float-subtle {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-6px);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.05);
+  }
+}
+
+.animate-float-slow {
+  animation: float-slow 6s ease-in-out infinite;
+}
+
+.animate-float-subtle {
+  animation: float-subtle 4s ease-in-out infinite;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 4s ease-in-out infinite;
+}
+
+/* Spider crawl leg animation */
+@keyframes spider-crawl {
+  0%, 100% {
+    transform: scale(1) skewX(0deg);
+  }
+  25% {
+    transform: scale(1.04, 0.96) skewX(4deg);
+  }
+  50% {
+    transform: scale(0.97, 1.03) skewX(0deg);
+  }
+  75% {
+    transform: scale(1.04, 0.96) skewX(-4deg);
+  }
+}
+
+.animate-spider-crawl {
+  animation: spider-crawl 0.22s infinite ease-in-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-spider-crawl,
+  .animate-float-slow,
+  .animate-float-subtle {
+    animation: none !important;
+  }
+}

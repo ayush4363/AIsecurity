@@ -1,0 +1,461 @@
+text,label,entities
+Here is the customer payment card: 4532-1234-5678-9010 with CVV 789 and exp 11/28,leakage,"[""CREDIT_CARD""]"
+Please connect using DATABASE_URL=postgres://admin:SuperSecretP@ssw0rd!@10.0.0.5:5432/user_db,leakage,"[""DB_PASSWORD"", ""DB_CONNECTION_STRING""]"
+"Private SSH Key: -----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+-----END OPENSSH PRIVATE KEY-----",leakage,"[""PRIVATE_KEY""]"
+"Private SSH Key: -----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+-----END OPENSSH PRIVATE KEY-----",leakage,"[""PRIVATE_KEY""]"
+Here is the cloud deployment configuration: AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY and key=AKIAIOSFODNN7EXAMPLE,leakage,"[""AWS_KEY""]"
+Please connect using DATABASE_URL=postgres://admin:SuperSecretP@ssw0rd!@10.0.0.5:5432/user_db,leakage,"[""DB_PASSWORD"", ""DB_CONNECTION_STRING""]"
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+Here is the customer payment card: 4532-1234-5678-9010 with CVV 789 and exp 11/28,leakage,"[""CREDIT_CARD""]"
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+Employee tax ID and social security: 123-45-6789 for employee John Doe,leakage,"[""SSN""]"
+Authentication header for the service is Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIn0,leakage,"[""JWT_TOKEN""]"
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+"Private SSH Key: -----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+-----END OPENSSH PRIVATE KEY-----",leakage,"[""PRIVATE_KEY""]"
+Please connect using DATABASE_URL=postgres://admin:SuperSecretP@ssw0rd!@10.0.0.5:5432/user_db,leakage,"[""DB_PASSWORD"", ""DB_CONNECTION_STRING""]"
+Employee tax ID and social security: 123-45-6789 for employee John Doe,leakage,"[""SSN""]"
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+"Private SSH Key: -----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+-----END OPENSSH PRIVATE KEY-----",leakage,"[""PRIVATE_KEY""]"
+Please connect using DATABASE_URL=postgres://admin:SuperSecretP@ssw0rd!@10.0.0.5:5432/user_db,leakage,"[""DB_PASSWORD"", ""DB_CONNECTION_STRING""]"
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+Here is the cloud deployment configuration: AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY and key=AKIAIOSFODNN7EXAMPLE,leakage,"[""AWS_KEY""]"
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+Please connect using DATABASE_URL=postgres://admin:SuperSecretP@ssw0rd!@10.0.0.5:5432/user_db,leakage,"[""DB_PASSWORD"", ""DB_CONNECTION_STRING""]"
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+Here is the cloud deployment configuration: AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY and key=AKIAIOSFODNN7EXAMPLE,leakage,"[""AWS_KEY""]"
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+Google OAuth Client Secret: GOCSPX-abc123def456ghi789jkl012mno,leakage,"[""OAUTH_SECRET""]"
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+Here is the cloud deployment configuration: AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY and key=AKIAIOSFODNN7EXAMPLE,leakage,"[""AWS_KEY""]"
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+"Private SSH Key: -----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+-----END OPENSSH PRIVATE KEY-----",leakage,"[""PRIVATE_KEY""]"
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+Here is the customer payment card: 4532-1234-5678-9010 with CVV 789 and exp 11/28,leakage,"[""CREDIT_CARD""]"
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+Google OAuth Client Secret: GOCSPX-abc123def456ghi789jkl012mno,leakage,"[""OAUTH_SECRET""]"
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+Authentication header for the service is Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIn0,leakage,"[""JWT_TOKEN""]"
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+"Private SSH Key: -----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+-----END OPENSSH PRIVATE KEY-----",leakage,"[""PRIVATE_KEY""]"
+Google OAuth Client Secret: GOCSPX-abc123def456ghi789jkl012mno,leakage,"[""OAUTH_SECRET""]"
+Authentication header for the service is Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIn0,leakage,"[""JWT_TOKEN""]"
+Please connect using DATABASE_URL=postgres://admin:SuperSecretP@ssw0rd!@10.0.0.5:5432/user_db,leakage,"[""DB_PASSWORD"", ""DB_CONNECTION_STRING""]"
+Authentication header for the service is Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIn0,leakage,"[""JWT_TOKEN""]"
+My OpenAI API key is sk-proj-938210482910482910482910482910482910482910482910,leakage,"[""API_KEY""]"
+Employee tax ID and social security: 123-45-6789 for employee John Doe,leakage,"[""SSN""]"
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+"Private SSH Key: -----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+-----END OPENSSH PRIVATE KEY-----",leakage,"[""PRIVATE_KEY""]"
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+"Private SSH Key: -----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+-----END OPENSSH PRIVATE KEY-----",leakage,"[""PRIVATE_KEY""]"
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+Here is the customer payment card: 4532-1234-5678-9010 with CVV 789 and exp 11/28,leakage,"[""CREDIT_CARD""]"
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+Please connect using DATABASE_URL=postgres://admin:SuperSecretP@ssw0rd!@10.0.0.5:5432/user_db,leakage,"[""DB_PASSWORD"", ""DB_CONNECTION_STRING""]"
+Here is the cloud deployment configuration: AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY and key=AKIAIOSFODNN7EXAMPLE,leakage,"[""AWS_KEY""]"
+Here is the cloud deployment configuration: AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY and key=AKIAIOSFODNN7EXAMPLE,leakage,"[""AWS_KEY""]"
+Please connect using DATABASE_URL=postgres://admin:SuperSecretP@ssw0rd!@10.0.0.5:5432/user_db,leakage,"[""DB_PASSWORD"", ""DB_CONNECTION_STRING""]"
+Google OAuth Client Secret: GOCSPX-abc123def456ghi789jkl012mno,leakage,"[""OAUTH_SECRET""]"
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+Google OAuth Client Secret: GOCSPX-abc123def456ghi789jkl012mno,leakage,"[""OAUTH_SECRET""]"
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+Here is the cloud deployment configuration: AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY and key=AKIAIOSFODNN7EXAMPLE,leakage,"[""AWS_KEY""]"
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+Here is the cloud deployment configuration: AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY and key=AKIAIOSFODNN7EXAMPLE,leakage,"[""AWS_KEY""]"
+Employee tax ID and social security: 123-45-6789 for employee John Doe,leakage,"[""SSN""]"
+Employee tax ID and social security: 123-45-6789 for employee John Doe,leakage,"[""SSN""]"
+Employee tax ID and social security: 123-45-6789 for employee John Doe,leakage,"[""SSN""]"
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+Here is the customer payment card: 4532-1234-5678-9010 with CVV 789 and exp 11/28,leakage,"[""CREDIT_CARD""]"
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+Google OAuth Client Secret: GOCSPX-abc123def456ghi789jkl012mno,leakage,"[""OAUTH_SECRET""]"
+My OpenAI API key is sk-proj-938210482910482910482910482910482910482910482910,leakage,"[""API_KEY""]"
+Authentication header for the service is Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIn0,leakage,"[""JWT_TOKEN""]"
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+Employee tax ID and social security: 123-45-6789 for employee John Doe,leakage,"[""SSN""]"
+Google OAuth Client Secret: GOCSPX-abc123def456ghi789jkl012mno,leakage,"[""OAUTH_SECRET""]"
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+Employee tax ID and social security: 123-45-6789 for employee John Doe,leakage,"[""SSN""]"
+Authentication header for the service is Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIn0,leakage,"[""JWT_TOKEN""]"
+Here is the cloud deployment configuration: AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY and key=AKIAIOSFODNN7EXAMPLE,leakage,"[""AWS_KEY""]"
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+My OpenAI API key is sk-proj-938210482910482910482910482910482910482910482910,leakage,"[""API_KEY""]"
+Here is the customer payment card: 4532-1234-5678-9010 with CVV 789 and exp 11/28,leakage,"[""CREDIT_CARD""]"
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+My OpenAI API key is sk-proj-938210482910482910482910482910482910482910482910,leakage,"[""API_KEY""]"
+Please connect using DATABASE_URL=postgres://admin:SuperSecretP@ssw0rd!@10.0.0.5:5432/user_db,leakage,"[""DB_PASSWORD"", ""DB_CONNECTION_STRING""]"
+Here is the customer payment card: 4532-1234-5678-9010 with CVV 789 and exp 11/28,leakage,"[""CREDIT_CARD""]"
+Here is the cloud deployment configuration: AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY and key=AKIAIOSFODNN7EXAMPLE,leakage,"[""AWS_KEY""]"
+Authentication header for the service is Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIn0,leakage,"[""JWT_TOKEN""]"
+Please connect using DATABASE_URL=postgres://admin:SuperSecretP@ssw0rd!@10.0.0.5:5432/user_db,leakage,"[""DB_PASSWORD"", ""DB_CONNECTION_STRING""]"
+Google OAuth Client Secret: GOCSPX-abc123def456ghi789jkl012mno,leakage,"[""OAUTH_SECRET""]"
+My OpenAI API key is sk-proj-938210482910482910482910482910482910482910482910,leakage,"[""API_KEY""]"
+Here is the customer payment card: 4532-1234-5678-9010 with CVV 789 and exp 11/28,leakage,"[""CREDIT_CARD""]"
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+"Private SSH Key: -----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+-----END OPENSSH PRIVATE KEY-----",leakage,"[""PRIVATE_KEY""]"
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+Here is the customer payment card: 4532-1234-5678-9010 with CVV 789 and exp 11/28,leakage,"[""CREDIT_CARD""]"
+Google OAuth Client Secret: GOCSPX-abc123def456ghi789jkl012mno,leakage,"[""OAUTH_SECRET""]"
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+Employee tax ID and social security: 123-45-6789 for employee John Doe,leakage,"[""SSN""]"
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+Employee tax ID and social security: 123-45-6789 for employee John Doe,leakage,"[""SSN""]"
+Employee tax ID and social security: 123-45-6789 for employee John Doe,leakage,"[""SSN""]"
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+Here is the customer payment card: 4532-1234-5678-9010 with CVV 789 and exp 11/28,leakage,"[""CREDIT_CARD""]"
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+Here is the customer payment card: 4532-1234-5678-9010 with CVV 789 and exp 11/28,leakage,"[""CREDIT_CARD""]"
+Google OAuth Client Secret: GOCSPX-abc123def456ghi789jkl012mno,leakage,"[""OAUTH_SECRET""]"
+"Private SSH Key: -----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+-----END OPENSSH PRIVATE KEY-----",leakage,"[""PRIVATE_KEY""]"
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+Please connect using DATABASE_URL=postgres://admin:SuperSecretP@ssw0rd!@10.0.0.5:5432/user_db,leakage,"[""DB_PASSWORD"", ""DB_CONNECTION_STRING""]"
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+Here is the customer payment card: 4532-1234-5678-9010 with CVV 789 and exp 11/28,leakage,"[""CREDIT_CARD""]"
+My OpenAI API key is sk-proj-938210482910482910482910482910482910482910482910,leakage,"[""API_KEY""]"
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+"Private SSH Key: -----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+-----END OPENSSH PRIVATE KEY-----",leakage,"[""PRIVATE_KEY""]"
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+My OpenAI API key is sk-proj-938210482910482910482910482910482910482910482910,leakage,"[""API_KEY""]"
+Google OAuth Client Secret: GOCSPX-abc123def456ghi789jkl012mno,leakage,"[""OAUTH_SECRET""]"
+Here is the cloud deployment configuration: AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY and key=AKIAIOSFODNN7EXAMPLE,leakage,"[""AWS_KEY""]"
+Please connect using DATABASE_URL=postgres://admin:SuperSecretP@ssw0rd!@10.0.0.5:5432/user_db,leakage,"[""DB_PASSWORD"", ""DB_CONNECTION_STRING""]"
+"Private SSH Key: -----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+-----END OPENSSH PRIVATE KEY-----",leakage,"[""PRIVATE_KEY""]"
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+"Private SSH Key: -----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+-----END OPENSSH PRIVATE KEY-----",leakage,"[""PRIVATE_KEY""]"
+Authentication header for the service is Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIn0,leakage,"[""JWT_TOKEN""]"
+Here is the customer payment card: 4532-1234-5678-9010 with CVV 789 and exp 11/28,leakage,"[""CREDIT_CARD""]"
+Google OAuth Client Secret: GOCSPX-abc123def456ghi789jkl012mno,leakage,"[""OAUTH_SECRET""]"
+Please connect using DATABASE_URL=postgres://admin:SuperSecretP@ssw0rd!@10.0.0.5:5432/user_db,leakage,"[""DB_PASSWORD"", ""DB_CONNECTION_STRING""]"
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+Please connect using DATABASE_URL=postgres://admin:SuperSecretP@ssw0rd!@10.0.0.5:5432/user_db,leakage,"[""DB_PASSWORD"", ""DB_CONNECTION_STRING""]"
+My OpenAI API key is sk-proj-938210482910482910482910482910482910482910482910,leakage,"[""API_KEY""]"
+My OpenAI API key is sk-proj-938210482910482910482910482910482910482910482910,leakage,"[""API_KEY""]"
+My OpenAI API key is sk-proj-938210482910482910482910482910482910482910482910,leakage,"[""API_KEY""]"
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+Here is the customer payment card: 4532-1234-5678-9010 with CVV 789 and exp 11/28,leakage,"[""CREDIT_CARD""]"
+Employee tax ID and social security: 123-45-6789 for employee John Doe,leakage,"[""SSN""]"
+My OpenAI API key is sk-proj-938210482910482910482910482910482910482910482910,leakage,"[""API_KEY""]"
+Here is the cloud deployment configuration: AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY and key=AKIAIOSFODNN7EXAMPLE,leakage,"[""AWS_KEY""]"
+Google OAuth Client Secret: GOCSPX-abc123def456ghi789jkl012mno,leakage,"[""OAUTH_SECRET""]"
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+Please connect using DATABASE_URL=postgres://admin:SuperSecretP@ssw0rd!@10.0.0.5:5432/user_db,leakage,"[""DB_PASSWORD"", ""DB_CONNECTION_STRING""]"
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+Here is the customer payment card: 4532-1234-5678-9010 with CVV 789 and exp 11/28,leakage,"[""CREDIT_CARD""]"
+Google OAuth Client Secret: GOCSPX-abc123def456ghi789jkl012mno,leakage,"[""OAUTH_SECRET""]"
+Employee tax ID and social security: 123-45-6789 for employee John Doe,leakage,"[""SSN""]"
+Here is the cloud deployment configuration: AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY and key=AKIAIOSFODNN7EXAMPLE,leakage,"[""AWS_KEY""]"
+Authentication header for the service is Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIn0,leakage,"[""JWT_TOKEN""]"
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+"Private SSH Key: -----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+-----END OPENSSH PRIVATE KEY-----",leakage,"[""PRIVATE_KEY""]"
+My OpenAI API key is sk-proj-938210482910482910482910482910482910482910482910,leakage,"[""API_KEY""]"
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+Employee tax ID and social security: 123-45-6789 for employee John Doe,leakage,"[""SSN""]"
+Authentication header for the service is Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIn0,leakage,"[""JWT_TOKEN""]"
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+"Private SSH Key: -----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+-----END OPENSSH PRIVATE KEY-----",leakage,"[""PRIVATE_KEY""]"
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+Google OAuth Client Secret: GOCSPX-abc123def456ghi789jkl012mno,leakage,"[""OAUTH_SECRET""]"
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+Please connect using DATABASE_URL=postgres://admin:SuperSecretP@ssw0rd!@10.0.0.5:5432/user_db,leakage,"[""DB_PASSWORD"", ""DB_CONNECTION_STRING""]"
+"Private SSH Key: -----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+-----END OPENSSH PRIVATE KEY-----",leakage,"[""PRIVATE_KEY""]"
+My OpenAI API key is sk-proj-938210482910482910482910482910482910482910482910,leakage,"[""API_KEY""]"
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+Please connect using DATABASE_URL=postgres://admin:SuperSecretP@ssw0rd!@10.0.0.5:5432/user_db,leakage,"[""DB_PASSWORD"", ""DB_CONNECTION_STRING""]"
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+Here is the cloud deployment configuration: AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY and key=AKIAIOSFODNN7EXAMPLE,leakage,"[""AWS_KEY""]"
+My OpenAI API key is sk-proj-938210482910482910482910482910482910482910482910,leakage,"[""API_KEY""]"
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+Employee tax ID and social security: 123-45-6789 for employee John Doe,leakage,"[""SSN""]"
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+Here is the customer payment card: 4532-1234-5678-9010 with CVV 789 and exp 11/28,leakage,"[""CREDIT_CARD""]"
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+Here is the cloud deployment configuration: AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY and key=AKIAIOSFODNN7EXAMPLE,leakage,"[""AWS_KEY""]"
+Authentication header for the service is Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIn0,leakage,"[""JWT_TOKEN""]"
+Google OAuth Client Secret: GOCSPX-abc123def456ghi789jkl012mno,leakage,"[""OAUTH_SECRET""]"
+Employee tax ID and social security: 123-45-6789 for employee John Doe,leakage,"[""SSN""]"
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+Authentication header for the service is Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIn0,leakage,"[""JWT_TOKEN""]"
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+My OpenAI API key is sk-proj-938210482910482910482910482910482910482910482910,leakage,"[""API_KEY""]"
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+Authentication header for the service is Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIn0,leakage,"[""JWT_TOKEN""]"
+Here is the cloud deployment configuration: AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY and key=AKIAIOSFODNN7EXAMPLE,leakage,"[""AWS_KEY""]"
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+Google OAuth Client Secret: GOCSPX-abc123def456ghi789jkl012mno,leakage,"[""OAUTH_SECRET""]"
+Authentication header for the service is Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIn0,leakage,"[""JWT_TOKEN""]"
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+Employee tax ID and social security: 123-45-6789 for employee John Doe,leakage,"[""SSN""]"
+My OpenAI API key is sk-proj-938210482910482910482910482910482910482910482910,leakage,"[""API_KEY""]"
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+My OpenAI API key is sk-proj-938210482910482910482910482910482910482910482910,leakage,"[""API_KEY""]"
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+Employee tax ID and social security: 123-45-6789 for employee John Doe,leakage,"[""SSN""]"
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+Here is the customer payment card: 4532-1234-5678-9010 with CVV 789 and exp 11/28,leakage,"[""CREDIT_CARD""]"
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+Please connect using DATABASE_URL=postgres://admin:SuperSecretP@ssw0rd!@10.0.0.5:5432/user_db,leakage,"[""DB_PASSWORD"", ""DB_CONNECTION_STRING""]"
+Employee tax ID and social security: 123-45-6789 for employee John Doe,leakage,"[""SSN""]"
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+Authentication header for the service is Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIn0,leakage,"[""JWT_TOKEN""]"
+Google OAuth Client Secret: GOCSPX-abc123def456ghi789jkl012mno,leakage,"[""OAUTH_SECRET""]"
+Here is the customer payment card: 4532-1234-5678-9010 with CVV 789 and exp 11/28,leakage,"[""CREDIT_CARD""]"
+My OpenAI API key is sk-proj-938210482910482910482910482910482910482910482910,leakage,"[""API_KEY""]"
+Here is the customer payment card: 4532-1234-5678-9010 with CVV 789 and exp 11/28,leakage,"[""CREDIT_CARD""]"
+Authentication header for the service is Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIn0,leakage,"[""JWT_TOKEN""]"
+"Private SSH Key: -----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+-----END OPENSSH PRIVATE KEY-----",leakage,"[""PRIVATE_KEY""]"
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+Google OAuth Client Secret: GOCSPX-abc123def456ghi789jkl012mno,leakage,"[""OAUTH_SECRET""]"
+My OpenAI API key is sk-proj-938210482910482910482910482910482910482910482910,leakage,"[""API_KEY""]"
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+Authentication header for the service is Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIn0,leakage,"[""JWT_TOKEN""]"
+Please connect using DATABASE_URL=postgres://admin:SuperSecretP@ssw0rd!@10.0.0.5:5432/user_db,leakage,"[""DB_PASSWORD"", ""DB_CONNECTION_STRING""]"
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+Here is the customer payment card: 4532-1234-5678-9010 with CVV 789 and exp 11/28,leakage,"[""CREDIT_CARD""]"
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+Here is the customer payment card: 4532-1234-5678-9010 with CVV 789 and exp 11/28,leakage,"[""CREDIT_CARD""]"
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+My OpenAI API key is sk-proj-938210482910482910482910482910482910482910482910,leakage,"[""API_KEY""]"
+Authentication header for the service is Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIn0,leakage,"[""JWT_TOKEN""]"
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+Employee tax ID and social security: 123-45-6789 for employee John Doe,leakage,"[""SSN""]"
+Google OAuth Client Secret: GOCSPX-abc123def456ghi789jkl012mno,leakage,"[""OAUTH_SECRET""]"
+Here is the cloud deployment configuration: AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY and key=AKIAIOSFODNN7EXAMPLE,leakage,"[""AWS_KEY""]"
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+My OpenAI API key is sk-proj-938210482910482910482910482910482910482910482910,leakage,"[""API_KEY""]"
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+Authentication header for the service is Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIn0,leakage,"[""JWT_TOKEN""]"
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+Authentication header for the service is Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIn0,leakage,"[""JWT_TOKEN""]"
+"Private SSH Key: -----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+-----END OPENSSH PRIVATE KEY-----",leakage,"[""PRIVATE_KEY""]"
+Google OAuth Client Secret: GOCSPX-abc123def456ghi789jkl012mno,leakage,"[""OAUTH_SECRET""]"
+Here is the cloud deployment configuration: AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY and key=AKIAIOSFODNN7EXAMPLE,leakage,"[""AWS_KEY""]"
+Here is the cloud deployment configuration: AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY and key=AKIAIOSFODNN7EXAMPLE,leakage,"[""AWS_KEY""]"
+Here is the cloud deployment configuration: AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY and key=AKIAIOSFODNN7EXAMPLE,leakage,"[""AWS_KEY""]"
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+"Private SSH Key: -----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+-----END OPENSSH PRIVATE KEY-----",leakage,"[""PRIVATE_KEY""]"
+Here is the customer payment card: 4532-1234-5678-9010 with CVV 789 and exp 11/28,leakage,"[""CREDIT_CARD""]"
+Here is the cloud deployment configuration: AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY and key=AKIAIOSFODNN7EXAMPLE,leakage,"[""AWS_KEY""]"
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+Please connect using DATABASE_URL=postgres://admin:SuperSecretP@ssw0rd!@10.0.0.5:5432/user_db,leakage,"[""DB_PASSWORD"", ""DB_CONNECTION_STRING""]"
+My OpenAI API key is sk-proj-938210482910482910482910482910482910482910482910,leakage,"[""API_KEY""]"
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+"Private SSH Key: -----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+-----END OPENSSH PRIVATE KEY-----",leakage,"[""PRIVATE_KEY""]"
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+Please connect using DATABASE_URL=postgres://admin:SuperSecretP@ssw0rd!@10.0.0.5:5432/user_db,leakage,"[""DB_PASSWORD"", ""DB_CONNECTION_STRING""]"
+Employee tax ID and social security: 123-45-6789 for employee John Doe,leakage,"[""SSN""]"
+Please connect using DATABASE_URL=postgres://admin:SuperSecretP@ssw0rd!@10.0.0.5:5432/user_db,leakage,"[""DB_PASSWORD"", ""DB_CONNECTION_STRING""]"
+Please connect using DATABASE_URL=postgres://admin:SuperSecretP@ssw0rd!@10.0.0.5:5432/user_db,leakage,"[""DB_PASSWORD"", ""DB_CONNECTION_STRING""]"
+Here is the cloud deployment configuration: AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY and key=AKIAIOSFODNN7EXAMPLE,leakage,"[""AWS_KEY""]"
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+Authentication header for the service is Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIn0,leakage,"[""JWT_TOKEN""]"
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+My OpenAI API key is sk-proj-938210482910482910482910482910482910482910482910,leakage,"[""API_KEY""]"
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+Here is the customer payment card: 4532-1234-5678-9010 with CVV 789 and exp 11/28,leakage,"[""CREDIT_CARD""]"
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+Employee tax ID and social security: 123-45-6789 for employee John Doe,leakage,"[""SSN""]"
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+Here is the cloud deployment configuration: AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY and key=AKIAIOSFODNN7EXAMPLE,leakage,"[""AWS_KEY""]"
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+"Private SSH Key: -----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+-----END OPENSSH PRIVATE KEY-----",leakage,"[""PRIVATE_KEY""]"
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+"Private SSH Key: -----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+-----END OPENSSH PRIVATE KEY-----",leakage,"[""PRIVATE_KEY""]"
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+"Private SSH Key: -----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+-----END OPENSSH PRIVATE KEY-----",leakage,"[""PRIVATE_KEY""]"
+You can install the package using pip install scikit-learn and run python main.py.,clean,[]
+Authentication header for the service is Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIn0,leakage,"[""JWT_TOKEN""]"
+"Private SSH Key: -----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+-----END OPENSSH PRIVATE KEY-----",leakage,"[""PRIVATE_KEY""]"
+Employee tax ID and social security: 123-45-6789 for employee John Doe,leakage,"[""SSN""]"
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+My OpenAI API key is sk-proj-938210482910482910482910482910482910482910482910,leakage,"[""API_KEY""]"
+Please connect using DATABASE_URL=postgres://admin:SuperSecretP@ssw0rd!@10.0.0.5:5432/user_db,leakage,"[""DB_PASSWORD"", ""DB_CONNECTION_STRING""]"
+Authentication header for the service is Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIn0,leakage,"[""JWT_TOKEN""]"
+Here is the cloud deployment configuration: AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY and key=AKIAIOSFODNN7EXAMPLE,leakage,"[""AWS_KEY""]"
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+Employee tax ID and social security: 123-45-6789 for employee John Doe,leakage,"[""SSN""]"
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+Here is the cloud deployment configuration: AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY and key=AKIAIOSFODNN7EXAMPLE,leakage,"[""AWS_KEY""]"
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+Google OAuth Client Secret: GOCSPX-abc123def456ghi789jkl012mno,leakage,"[""OAUTH_SECRET""]"
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+The total revenue for Q3 increased by 14% year over year to reach $4.2 million.,clean,[]
+Employee tax ID and social security: 123-45-6789 for employee John Doe,leakage,"[""SSN""]"
+Authentication header for the service is Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIn0,leakage,"[""JWT_TOKEN""]"
+Google OAuth Client Secret: GOCSPX-abc123def456ghi789jkl012mno,leakage,"[""OAUTH_SECRET""]"
+The server is listening on port 5001 and the database is hosted locally on Docker.,clean,[]
+My OpenAI API key is sk-proj-938210482910482910482910482910482910482910482910,leakage,"[""API_KEY""]"
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+Google OAuth Client Secret: GOCSPX-abc123def456ghi789jkl012mno,leakage,"[""OAUTH_SECRET""]"
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+Please send your feedback to support@company.com or contact us on Discord.,clean,[]
+Please connect using DATABASE_URL=postgres://admin:SuperSecretP@ssw0rd!@10.0.0.5:5432/user_db,leakage,"[""DB_PASSWORD"", ""DB_CONNECTION_STRING""]"
+Meeting scheduled for Thursday at 3:00 PM EST in Conference Room B.,clean,[]
+Here is the customer payment card: 4532-1234-5678-9010 with CVV 789 and exp 11/28,leakage,"[""CREDIT_CARD""]"
+Here is the customer payment card: 4532-1234-5678-9010 with CVV 789 and exp 11/28,leakage,"[""CREDIT_CARD""]"
+Google OAuth Client Secret: GOCSPX-abc123def456ghi789jkl012mno,leakage,"[""OAUTH_SECRET""]"
+Authentication header for the service is Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjM0NTY3ODkwIiwibmFtZSI6IkpvaG4gRG9lIn0,leakage,"[""JWT_TOKEN""]"
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+Our product uses AES-256 encryption at rest and TLS 1.3 in transit.,clean,[]
+"Private SSH Key: -----BEGIN OPENSSH PRIVATE KEY-----
+b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAABlwAAAAdzc2gtcn
+-----END OPENSSH PRIVATE KEY-----",leakage,"[""PRIVATE_KEY""]"

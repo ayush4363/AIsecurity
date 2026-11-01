@@ -1,0 +1,68 @@
+{
+  "module": "email",
+  "model_version": "email-v1.0.0",
+  "algorithm": "TF-IDF (1,2-gram) + Logistic Regression",
+  "dataset_size": 610,
+  "train_size": 427,
+  "val_size": 91,
+  "test_size": 92,
+  "accuracy": 1.0,
+  "precision": 1.0,
+  "recall": 1.0,
+  "f1_score": 1.0,
+  "confusion_matrix": [
+    [
+      30,
+      0,
+      0
+    ],
+    [
+      0,
+      30,
+      0
+    ],
+    [
+      0,
+      0,
+      32
+    ]
+  ],
+  "classes": [
+    "legitimate",
+    "spam",
+    "phishing"
+  ],
+  "class_report": {
+    "legitimate": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 30.0
+    },
+    "phishing": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 32.0
+    },
+    "spam": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 30.0
+    },
+    "accuracy": 1.0,
+    "macro avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 92.0
+    },
+    "weighted avg": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 92.0
+    }
+  }
+}

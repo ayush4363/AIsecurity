@@ -1,0 +1,23 @@
+{
+  "total_records": 752,
+  "class_distribution": {
+    "benign_0": 419,
+    "malicious_1": 333
+  },
+  "category_distribution": {
+    "benign_instruction": 399,
+    "direct_injection": 263,
+    "hard_benign_control": 20,
+    "indirect_email": 10,
+    "hidden_html": 10,
+    "delimiter_smuggling": 10,
+    "jailbreak": 10,
+    "credential_extraction": 10,
+    "data_exfiltration": 10,
+    "encoded_obfuscated": 10
+  },
+  "source_distribution": {
+    "deepset/prompt-injections": 662,
+    "butler_curated_security": 90
+  }
+}

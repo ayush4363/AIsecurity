@@ -1,0 +1,46 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Large Model Weights (>100MB rejected by GitHub)
+*.safetensors
+*.bin
+*.h5
+
+# Python artifacts
+__pycache__/
+*/__pycache__/
+*/*/__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+*/venv/
+.pytest_cache/
+*/.pytest_cache/
+.coverage
+htmlcov/
+
+# Environment Variables
+.env
+*.env
+.env.local
+.env.*.local
+server/.env
+
+# Google OAuth Secrets & Sensitive Credentials
+client_secret*.json
+*.pem
+*.key
+
+# Build outputs & uploads
+dist/
+build/
+uploads/
+server/uploads/
+
+# OS and Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
