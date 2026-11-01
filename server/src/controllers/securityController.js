@@ -282,6 +282,17 @@ export const securityController = {
     }
   },
 
+  // 11B. Clear All Security Data & Audit Logs
+  async clearData(req, res) {
+    try {
+      const userId = req.user?.id || 'usr-demo';
+      const result = await securityRepository.clearAllData(userId);
+      res.json(result);
+    } catch (err) {
+      res.status(500).json({ success: false, error: err.message });
+    }
+  },
+
   // 11B. Get Hybrid ML Security Status & Models
   async getMLStatus(req, res) {
     try {

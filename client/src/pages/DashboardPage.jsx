@@ -21,7 +21,8 @@ import {
   Layers,
   Activity,
   Sliders,
-  ExternalLink
+  ExternalLink,
+  Trash2
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
 import { api, BACKEND_URL } from '../services/api';
@@ -67,13 +68,13 @@ export default function DashboardPage({ user, onNavigate }) {
 
   // Security Stats, Threats & Audit
   const [stats, setStats] = useState({
-    totalThreats: 24,
-    threatsDetected: 24,
-    promptInjections: 15,
-    suspiciousLinks: 7,
-    maliciousContent: 2,
-    blockedActions: 12,
-    safeActionsAllowed: 142
+    totalThreats: 0,
+    threatsDetected: 0,
+    promptInjections: 0,
+    suspiciousLinks: 0,
+    maliciousContent: 0,
+    blockedActions: 0,
+    safeActionsAllowed: 0
   });
   const [events, setEvents] = useState([]);
   const [threats, setThreats] = useState([]);
@@ -179,6 +180,30 @@ export default function DashboardPage({ user, onNavigate }) {
       }
     } catch (err) {
       console.error('Failed to load dashboard data:', err);
+    }
+  };
+
+  const handleClearAllData = async () => {
+    if (!window.confirm('Clear all previous threat records, activity logs, and telemetry?')) {
+      return;
+    }
+    try {
+      await api.clearSecurityData();
+      setThreats([]);
+      setActivities([]);
+      setEvents([]);
+      setStats({
+        totalThreats: 0,
+        threatsDetected: 0,
+        promptInjections: 0,
+        suspiciousLinks: 0,
+        maliciousContent: 0,
+        blockedActions: 0,
+        safeActionsAllowed: 0
+      });
+    } catch (err) {
+      console.error('Failed to clear data:', err);
+      alert('Failed to clear data: ' + err.message);
     }
   };
 
@@ -1023,32 +1048,32 @@ export default function DashboardPage({ user, onNavigate }) {
           <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-3 sm:gap-4">
             <div className="bg-[#FFF9EE] p-4 sm:p-5 rounded-3xl border border-[#F3E3C6] shadow-card text-brand-darkText">
               <span className="text-[11px] font-bold text-[#6D5F86] uppercase tracking-wider">Total Threats</span>
-              <div className="text-2xl sm:text-3xl font-black mt-1 text-red-600">{stats.totalThreats || stats.threatsDetected}</div>
+              <div className="text-2xl sm:text-3xl font-black mt-1 text-red-600">{stats.totalThreats ?? stats.threatsDetected ?? 0}</div>
               <span className="text-[10px] text-[#55476E]">All attack streams</span>
             </div>
             <div className="bg-[#FFF9EE] p-4 sm:p-5 rounded-3xl border border-[#F3E3C6] shadow-card text-brand-darkText">
               <span className="text-[11px] font-bold text-[#6D5F86] uppercase tracking-wider">Prompt Injections</span>
-              <div className="text-2xl sm:text-3xl font-black mt-1 text-purple-700">{stats.promptInjections}</div>
+              <div className="text-2xl sm:text-3xl font-black mt-1 text-purple-700">{stats.promptInjections ?? 0}</div>
               <span className="text-[10px] text-[#55476E]">Neutralized before exec</span>
             </div>
             <div className="bg-[#FFF9EE] p-4 sm:p-5 rounded-3xl border border-[#F3E3C6] shadow-card text-brand-darkText">
               <span className="text-[11px] font-bold text-[#6D5F86] uppercase tracking-wider">Phishing Links</span>
-              <div className="text-2xl sm:text-3xl font-black mt-1 text-amber-700">{stats.suspiciousLinks || 7}</div>
+              <div className="text-2xl sm:text-3xl font-black mt-1 text-amber-700">{stats.suspiciousLinks ?? 0}</div>
               <span className="text-[10px] text-[#55476E]">Reputation blocked</span>
             </div>
             <div className="bg-[#FFF9EE] p-4 sm:p-5 rounded-3xl border border-[#F3E3C6] shadow-card text-brand-darkText">
               <span className="text-[11px] font-bold text-[#6D5F86] uppercase tracking-wider">Malicious Content</span>
-              <div className="text-2xl sm:text-3xl font-black mt-1 text-pink-700">{stats.maliciousContent || 4}</div>
+              <div className="text-2xl sm:text-3xl font-black mt-1 text-pink-700">{stats.maliciousContent ?? 0}</div>
               <span className="text-[10px] text-[#55476E]">Delimiters & secret leaks</span>
             </div>
             <div className="bg-[#FFF9EE] p-4 sm:p-5 rounded-3xl border border-[#F3E3C6] shadow-card text-brand-darkText">
               <span className="text-[11px] font-bold text-[#6D5F86] uppercase tracking-wider">Blocked Actions</span>
-              <div className="text-2xl sm:text-3xl font-black mt-1 text-red-700">{stats.blockedActions || 12}</div>
+              <div className="text-2xl sm:text-3xl font-black mt-1 text-red-700">{stats.blockedActions ?? 0}</div>
               <span className="text-[10px] text-[#55476E]">Firewall intercepted</span>
             </div>
             <div className="bg-[#FFF9EE] p-4 sm:p-5 rounded-3xl border border-[#F3E3C6] shadow-card text-brand-darkText">
               <span className="text-[11px] font-bold text-[#6D5F86] uppercase tracking-wider">Safe Actions</span>
-              <div className="text-2xl sm:text-3xl font-black mt-1 text-green-700">{stats.safeActionsAllowed || 142}</div>
+              <div className="text-2xl sm:text-3xl font-black mt-1 text-green-700">{stats.safeActionsAllowed ?? stats.safeActions ?? 0}</div>
               <span className="text-[10px] text-[#55476E]">Verified human control</span>
             </div>
           </div>
@@ -1117,13 +1142,23 @@ export default function DashboardPage({ user, onNavigate }) {
                 <span className="text-xs font-bold text-brand-yellow uppercase tracking-wider">Audit Log</span>
                 <h3 className="text-lg font-black text-white mt-0.5">Live AI Action Firewall Decisions</h3>
               </div>
-              <button
-                onClick={() => setActiveTab('threats')}
-                className="text-xs font-bold text-brand-yellow hover:underline flex items-center gap-1"
-              >
-                <span>View Full Audit Log</span>
-                <ChevronRight className="w-3.5 h-3.5" />
-              </button>
+              <div className="flex items-center gap-3">
+                <button
+                  onClick={handleClearAllData}
+                  className="text-xs font-bold text-red-400 hover:text-red-300 hover:underline flex items-center gap-1 transition"
+                  title="Clear all previous records"
+                >
+                  <Trash2 className="w-3.5 h-3.5" />
+                  <span>Clear History</span>
+                </button>
+                <button
+                  onClick={() => setActiveTab('threats')}
+                  className="text-xs font-bold text-brand-yellow hover:underline flex items-center gap-1"
+                >
+                  <span>View Full Audit Log</span>
+                  <ChevronRight className="w-3.5 h-3.5" />
+                </button>
+              </div>
             </div>
 
             <div className="space-y-2.5">
@@ -1600,13 +1635,23 @@ export default function DashboardPage({ user, onNavigate }) {
                 <p className="text-xs text-brand-cream/70">Click any threat to view forensic evidence, origin, and neutralization details.</p>
               </div>
 
-              <button
-                onClick={loadInitialData}
-                className="px-4 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-bold transition flex items-center gap-1.5 self-start sm:self-auto"
-              >
-                <RefreshCw className="w-3.5 h-3.5" />
-                <span>Refresh Telemetry</span>
-              </button>
+              <div className="flex items-center gap-2 self-start sm:self-auto">
+                <button
+                  onClick={handleClearAllData}
+                  className="px-4 py-2 rounded-xl bg-red-500/20 hover:bg-red-500/30 text-red-200 text-xs font-bold transition flex items-center gap-1.5"
+                  title="Clear all recorded threats and audit logs"
+                >
+                  <Trash2 className="w-3.5 h-3.5" />
+                  <span>Clear All Records</span>
+                </button>
+                <button
+                  onClick={loadInitialData}
+                  className="px-4 py-2 rounded-xl bg-white/10 hover:bg-white/20 text-white text-xs font-bold transition flex items-center gap-1.5"
+                >
+                  <RefreshCw className="w-3.5 h-3.5" />
+                  <span>Refresh Telemetry</span>
+                </button>
+              </div>
             </div>
 
             <div className="overflow-x-auto">

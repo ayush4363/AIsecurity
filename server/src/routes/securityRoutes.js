@@ -40,6 +40,8 @@ router.get('/activity', securityController.getActivity);
 router.get('/status', securityController.getStatus);
 router.get('/ml/status', securityController.getMLStatus);
 router.post('/safe-mode/reset', securityController.resetSafeMode);
+router.post('/clear-data', securityController.clearData);
+router.delete('/data', securityController.clearData);
 
 // Attack Simulation Lab
 router.get('/simulation/scenarios', securityController.getSimulationScenarios);

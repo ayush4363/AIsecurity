@@ -52,6 +52,14 @@ export const api = {
     return res.json();
   },
 
+  async clearSecurityData() {
+    const res = await fetch(`${API_BASE}/security/clear-data`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' }
+    });
+    return res.json();
+  },
+
   // Text / Prompt injection scanner
   async scanText(text, source = 'User Playground') {
     const res = await fetch(`${API_BASE}/security/scan`, {

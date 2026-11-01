@@ -14,8 +14,6 @@ class SecurityRepository {
     this.inMemoryActivities = [];
     this.inMemoryApprovals = [];
     this.inMemorySecurityStates = new Map();
-
-    this.seedDefaultData();
   }
 
   isMongoReady() {
@@ -204,12 +202,36 @@ class SecurityRepository {
 
     return {
       totalThreats: threats.length,
-      promptInjections: Math.max(promptInjections, 15),
-      suspiciousLinks: Math.max(suspiciousLinks, 7),
-      maliciousContent: Math.max(maliciousContent, 4),
-      blockedActions: Math.max(blockedActions, 12),
-      safeActions: Math.max(safeActions, 142),
+      threatsDetected: threats.length,
+      promptInjections,
+      suspiciousLinks,
+      maliciousContent,
+      blockedActions,
+      safeActions,
+      safeActionsAllowed: safeActions,
       pendingApprovals
+    };
+  }
+
+  // --- CLEAR DATA ---
+  async clearAllData(userId = 'usr-demo') {
+    if (this.isMongoReady()) {
+      try {
+        await Threat.deleteMany({ userId });
+        await Activity.deleteMany({ userId });
+        await Approval.deleteMany({ userId });
+      } catch (err) {
+        console.error('[DB] Error clearing data from Mongo:', err.message);
+      }
+    }
+
+    this.inMemoryThreats = this.inMemoryThreats.filter(t => t.userId !== userId);
+    this.inMemoryActivities = this.inMemoryActivities.filter(a => a.userId !== userId);
+    this.inMemoryApprovals = this.inMemoryApprovals.filter(a => a.userId !== userId);
+
+    return {
+      success: true,
+      message: 'All previous threats, audit logs, and decisions have been cleared successfully.'
     };
   }
 

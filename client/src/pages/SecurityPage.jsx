@@ -4,11 +4,11 @@ import { api } from '../services/api';
 
 export default function SecurityPage({ onNavigate }) {
   const [stats, setStats] = useState({
-    threatsDetected: 24,
-    promptInjections: 15,
-    suspiciousLinks: 7,
-    maliciousContent: 2,
-    safeActionsAllowed: 142
+    threatsDetected: 0,
+    promptInjections: 0,
+    suspiciousLinks: 0,
+    maliciousContent: 0,
+    safeActionsAllowed: 0
   });
   const [events, setEvents] = useState([]);
   const [loading, setLoading] = useState(false);
