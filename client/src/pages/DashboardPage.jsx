@@ -24,7 +24,7 @@ import {
   ExternalLink
 } from 'lucide-react';
 import confetti from 'canvas-confetti';
-import { api } from '../services/api';
+import { api, BACKEND_URL } from '../services/api';
 import GmailReader from '../components/GmailReader';
 
 export default function DashboardPage({ user, onNavigate }) {
@@ -291,10 +291,10 @@ export default function DashboardPage({ user, onNavigate }) {
       if (res.success && res.authUrl) {
         window.location.href = res.authUrl;
       } else {
-        window.location.href = 'http://localhost:5001/api/gmail/auth?redirect=true';
+        window.location.href = `${BACKEND_URL || ''}/api/gmail/auth?redirect=true`;
       }
     } catch {
-      window.location.href = 'http://localhost:5001/api/gmail/auth?redirect=true';
+      window.location.href = `${BACKEND_URL || ''}/api/gmail/auth?redirect=true`;
     }
   };
 

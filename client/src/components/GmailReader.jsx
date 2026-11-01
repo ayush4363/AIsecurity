@@ -24,7 +24,7 @@ import {
   Check,
   X
 } from 'lucide-react';
-import { api } from '../services/api';
+import { api, BACKEND_URL } from '../services/api';
 
 export default function GmailReader({ onSecurityEvent }) {
   // Gmail Connection State
@@ -188,11 +188,11 @@ export default function GmailReader({ onSecurityEvent }) {
         window.location.href = res.authUrl;
       } else {
         // Fallback direct endpoint redirect
-        window.location.href = 'http://localhost:5001/api/gmail/auth?redirect=true';
+        window.location.href = `${BACKEND_URL || ''}/api/gmail/auth?redirect=true`;
       }
     } catch (err) {
       // Fallback direct endpoint redirect
-      window.location.href = 'http://localhost:5001/api/gmail/auth?redirect=true';
+      window.location.href = `${BACKEND_URL || ''}/api/gmail/auth?redirect=true`;
     }
   };
 
